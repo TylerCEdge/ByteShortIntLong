@@ -76,5 +76,40 @@ public class Main {
         System.out.println(four);
 
         short test = (short) (1000 + 10 * (one + two + three));
+
+        // Recap
+
+        // byte not really used
+        // short rarely
+        // int common
+        // long uncommon
+        // float rarely
+        // double common
+        // char uncommon
+        // boolean common
+
+        // String is not a primitive type its technically a class.
+        String newString = "This is a string";
+        System.out.println(newString);
+        newString = newString + ", I added more to it.";
+        System.out.println(newString);
+        newString = newString + " \u00a9 2019";
+        System.out.println(newString);
+
+        // Not using a numeric type so it treats it as text
+        String numStr = "250.55";
+        numStr = numStr + "49.95";
+        System.out.println(numStr);
+
+        // Integer data type doesn't matter because Java converts the value to a string.
+        String lastString = "10";
+        int myInt = 50;
+        lastString = lastString + myInt;
+        System.out.println("LastString is equal to " + lastString);
+
+        double doubleNumber = 120.47d;
+        lastString = lastString + doubleNumber;
+        System.out.println("LastString is equal to " + lastString);
+
     }
 }
