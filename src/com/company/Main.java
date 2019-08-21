@@ -65,6 +65,16 @@ public class Main {
         short myNewShortValue = (short) (myMinShortValue / 2);
         System.out.println(myNewShortValue);
 
+        // Challenge
 
+        byte one = 4;
+        short two = 100;
+        int three = 66;
+
+        // Long accepts int no casting required
+        long four = 50000L + 10L * (one + two + three);
+        System.out.println(four);
+
+        short test = (short) (1000 + 10 * (one + two + three));
     }
 }
